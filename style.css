@@ -15,7 +15,7 @@ body{
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(haiyan-iss.jpg);
     background-attachment: fixed;
-   
+    overflow: hidden;
 }
 
 
@@ -179,16 +179,6 @@ button{
       cursor: pointer;
    
 }
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.3); 
-  border-radius: 4px;
-}
-
 
 ul{
    list-style-type: none;
