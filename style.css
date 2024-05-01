@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: auto;   
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(haiyan-iss.jpg);
+    background-attachment: fixed;
+    overflow: hidden;
+   
+}
+
+
+.paragraph{
+    font-size: 400%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 200px;
+   margin-left: 65px;
+   margin-bottom: px;
+   width: 70%; 
+}
+
+.paragraph2{
+   font-size: 150%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   width: 56%;
+   border-top: 2px solid #fff;
+   margin-top: px;
+   margin-left: 65px;
+}
+
+.paragraph3{
+   font-size: 150%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 250px;
+   margin-left: 10px;
+}
+
+.paragraph4{
+   font-size: 129%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 100px;
+   margin-left: 10px;
+}
+
+.paragraph5{
+   font-size: 160%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 170px;
+   text-align: center;
+   align-items: center;
+}
+
+
+
+.header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px, 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header2{
+   font-size: 175%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.header3{
+   font-size: 175%;
+   font-family: 'Poppins', 'san-serif';
+   color: #fff;
+   margin-top: 25px;
+   margin-left: 110px;
+}
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+   }
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color:#fff;
+    font-weight: 350;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.buttons2{
+   margin-left: 55px;
+}
+
+button{
+   
+    width: 500px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 8px 10px;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 100%;
+    border: 3px solid #818589;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-in 0s;
+ }
+ 
+ span{
+    background: #818589;
+    height: 100%;
+    width: 0%;
+    border-radius: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s; 
+ }
+ 
+ button:hover span{
+    width: 100%;
+ }
+ 
+ button:hover{
+    border: none;
+    transform: translateY(-5px);
+ }
+
+ .button{
+   position: absolute;
+      top: 25px;
+      left: 20px; 
+      padding: 10px;
+      background: transparent;
+      color: #fff; 
+      cursor: pointer;
+   
+}
+
+
+ul{
+   list-style-type: none;
+}
